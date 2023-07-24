@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA557442A6D8C3200FB86AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557432A6D8C3200FB86AB /* AppDelegate.swift */; };
+		FCA557462A6D8C3200FB86AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557452A6D8C3200FB86AB /* SceneDelegate.swift */; };
+		FCA557482A6D8C3200FB86AB /* RM_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557472A6D8C3200FB86AB /* RM_ViewController.swift */; };
+		FCA5574D2A6D8C3300FB86AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA5574C2A6D8C3300FB86AB /* Assets.xcassets */; };
+		FCA557502A6D8C3300FB86AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA5574E2A6D8C3300FB86AB /* LaunchScreen.storyboard */; };
+		FCA5575B2A6D8C3300FB86AB /* TherickandmotifyappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5575A2A6D8C3300FB86AB /* TherickandmotifyappTests.swift */; };
+		FCA557652A6D8C3300FB86AB /* TherickandmotifyappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557642A6D8C3300FB86AB /* TherickandmotifyappUITests.swift */; };
+		FCA557672A6D8C3300FB86AB /* TherickandmotifyappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557662A6D8C3300FB86AB /* TherickandmotifyappUITestsLaunchTests.swift */; };
+		FCA5577B2A6D92E000FB86AB /* RM_Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5577A2A6D92E000FB86AB /* RM_Location.swift */; };
+		FCA5577D2A6D930700FB86AB /* RM_Chacrater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5577C2A6D930700FB86AB /* RM_Chacrater.swift */; };
+		FCA5577F2A6D933500FB86AB /* RM_Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5577E2A6D933500FB86AB /* RM_Episode.swift */; };
+		FCA557822A6D943E00FB86AB /* RM_ChacraterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557812A6D943E00FB86AB /* RM_ChacraterViewController.swift */; };
+		FCA557842A6D944F00FB86AB /* RM_LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557832A6D944F00FB86AB /* RM_LocationViewController.swift */; };
+		FCA557862A6D946500FB86AB /* RM_EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557852A6D946500FB86AB /* RM_EpisodeViewController.swift */; };
+		FCA557882A6D948A00FB86AB /* RM_SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557872A6D948A00FB86AB /* RM_SettingsViewController.swift */; };
+		FCA5578A2A6E735D00FB86AB /* RMSignleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557892A6E735D00FB86AB /* RMSignleLocation.swift */; };
+		FCA5578C2A6E737500FB86AB /* RMChacraterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5578B2A6E737500FB86AB /* RMChacraterGender.swift */; };
+		FCA5578E2A6E738E00FB86AB /* RMChacraterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5578D2A6E738E00FB86AB /* RMChacraterStatus.swift */; };
+		FCA557902A6E73AE00FB86AB /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5578F2A6E73AE00FB86AB /* RMOrigin.swift */; };
+		FCA557922A6EA61600FB86AB /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557912A6EA61600FB86AB /* RMService.swift */; };
+		FCA557942A6EA62B00FB86AB /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557932A6EA62B00FB86AB /* RMRequest.swift */; };
+		FCA557962A6EA63900FB86AB /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA557952A6EA63900FB86AB /* RMEndpoint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA557572A6D8C3300FB86AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA557382A6D8C3200FB86AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA5573F2A6D8C3200FB86AB;
+			remoteInfo = Therickandmotifyapp;
+		};
+		FCA557612A6D8C3300FB86AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA557382A6D8C3200FB86AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA5573F2A6D8C3200FB86AB;
+			remoteInfo = Therickandmotifyapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCA557402A6D8C3200FB86AB /* Therickandmotifyapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Therickandmotifyapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA557432A6D8C3200FB86AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA557452A6D8C3200FB86AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCA557472A6D8C3200FB86AB /* RM_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_ViewController.swift; sourceTree = "<group>"; };
+		FCA5574C2A6D8C3300FB86AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA5574F2A6D8C3300FB86AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA557512A6D8C3300FB86AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA557562A6D8C3300FB86AB /* TherickandmotifyappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TherickandmotifyappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA5575A2A6D8C3300FB86AB /* TherickandmotifyappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherickandmotifyappTests.swift; sourceTree = "<group>"; };
+		FCA557602A6D8C3300FB86AB /* TherickandmotifyappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TherickandmotifyappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA557642A6D8C3300FB86AB /* TherickandmotifyappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherickandmotifyappUITests.swift; sourceTree = "<group>"; };
+		FCA557662A6D8C3300FB86AB /* TherickandmotifyappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherickandmotifyappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCA5577A2A6D92E000FB86AB /* RM_Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_Location.swift; sourceTree = "<group>"; };
+		FCA5577C2A6D930700FB86AB /* RM_Chacrater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_Chacrater.swift; sourceTree = "<group>"; };
+		FCA5577E2A6D933500FB86AB /* RM_Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_Episode.swift; sourceTree = "<group>"; };
+		FCA557812A6D943E00FB86AB /* RM_ChacraterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_ChacraterViewController.swift; sourceTree = "<group>"; };
+		FCA557832A6D944F00FB86AB /* RM_LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_LocationViewController.swift; sourceTree = "<group>"; };
+		FCA557852A6D946500FB86AB /* RM_EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_EpisodeViewController.swift; sourceTree = "<group>"; };
+		FCA557872A6D948A00FB86AB /* RM_SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_SettingsViewController.swift; sourceTree = "<group>"; };
+		FCA557892A6E735D00FB86AB /* RMSignleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSignleLocation.swift; sourceTree = "<group>"; };
+		FCA5578B2A6E737500FB86AB /* RMChacraterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMChacraterGender.swift; sourceTree = "<group>"; };
+		FCA5578D2A6E738E00FB86AB /* RMChacraterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMChacraterStatus.swift; sourceTree = "<group>"; };
+		FCA5578F2A6E73AE00FB86AB /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		FCA557912A6EA61600FB86AB /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
+		FCA557932A6EA62B00FB86AB /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
+		FCA557952A6EA63900FB86AB /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA5573D2A6D8C3200FB86AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA557532A6D8C3300FB86AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA5575D2A6D8C3300FB86AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA557372A6D8C3200FB86AB = {
+			isa = PBXGroup;
+			children = (
+				FCA557422A6D8C3200FB86AB /* Therickandmotifyapp */,
+				FCA557592A6D8C3300FB86AB /* TherickandmotifyappTests */,
+				FCA557632A6D8C3300FB86AB /* TherickandmotifyappUITests */,
+				FCA557412A6D8C3200FB86AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA557412A6D8C3200FB86AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA557402A6D8C3200FB86AB /* Therickandmotifyapp.app */,
+				FCA557562A6D8C3300FB86AB /* TherickandmotifyappTests.xctest */,
+				FCA557602A6D8C3300FB86AB /* TherickandmotifyappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA557422A6D8C3200FB86AB /* Therickandmotifyapp */ = {
+			isa = PBXGroup;
+			children = (
+				FCA557792A6D926200FB86AB /* Model */,
+				FCA557782A6D8EB700FB86AB /* Resource */,
+				FCA557772A6D8EA300FB86AB /* ViewsModel */,
+				FCA557762A6D8E9400FB86AB /* APIClient */,
+				FCA557752A6D8E8A00FB86AB /* Manager */,
+				FCA557742A6D8E5C00FB86AB /* View */,
+				FCA557732A6D8E4300FB86AB /* Controller */,
+				FCA557512A6D8C3300FB86AB /* Info.plist */,
+			);
+			path = Therickandmotifyapp;
+			sourceTree = "<group>";
+		};
+		FCA557592A6D8C3300FB86AB /* TherickandmotifyappTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA5575A2A6D8C3300FB86AB /* TherickandmotifyappTests.swift */,
+			);
+			path = TherickandmotifyappTests;
+			sourceTree = "<group>";
+		};
+		FCA557632A6D8C3300FB86AB /* TherickandmotifyappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA557642A6D8C3300FB86AB /* TherickandmotifyappUITests.swift */,
+				FCA557662A6D8C3300FB86AB /* TherickandmotifyappUITestsLaunchTests.swift */,
+			);
+			path = TherickandmotifyappUITests;
+			sourceTree = "<group>";
+		};
+		FCA557732A6D8E4300FB86AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCA557802A6D940A00FB86AB /* core */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCA557742A6D8E5C00FB86AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCA557752A6D8E8A00FB86AB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FCA557762A6D8E9400FB86AB /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				FCA557912A6EA61600FB86AB /* RMService.swift */,
+				FCA557932A6EA62B00FB86AB /* RMRequest.swift */,
+				FCA557952A6EA63900FB86AB /* RMEndpoint.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		FCA557772A6D8EA300FB86AB /* ViewsModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewsModel;
+			sourceTree = "<group>";
+		};
+		FCA557782A6D8EB700FB86AB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FCA557432A6D8C3200FB86AB /* AppDelegate.swift */,
+				FCA557452A6D8C3200FB86AB /* SceneDelegate.swift */,
+				FCA5574E2A6D8C3300FB86AB /* LaunchScreen.storyboard */,
+				FCA5574C2A6D8C3300FB86AB /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FCA557792A6D926200FB86AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCA5577A2A6D92E000FB86AB /* RM_Location.swift */,
+				FCA5577C2A6D930700FB86AB /* RM_Chacrater.swift */,
+				FCA5577E2A6D933500FB86AB /* RM_Episode.swift */,
+				FCA557892A6E735D00FB86AB /* RMSignleLocation.swift */,
+				FCA5578B2A6E737500FB86AB /* RMChacraterGender.swift */,
+				FCA5578D2A6E738E00FB86AB /* RMChacraterStatus.swift */,
+				FCA5578F2A6E73AE00FB86AB /* RMOrigin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCA557802A6D940A00FB86AB /* core */ = {
+			isa = PBXGroup;
+			children = (
+				FCA557472A6D8C3200FB86AB /* RM_ViewController.swift */,
+				FCA557812A6D943E00FB86AB /* RM_ChacraterViewController.swift */,
+				FCA557832A6D944F00FB86AB /* RM_LocationViewController.swift */,
+				FCA557852A6D946500FB86AB /* RM_EpisodeViewController.swift */,
+				FCA557872A6D948A00FB86AB /* RM_SettingsViewController.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA5573F2A6D8C3200FB86AB /* Therickandmotifyapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA5576A2A6D8C3300FB86AB /* Build configuration list for PBXNativeTarget "Therickandmotifyapp" */;
+			buildPhases = (
+				FCA5573C2A6D8C3200FB86AB /* Sources */,
+				FCA5573D2A6D8C3200FB86AB /* Frameworks */,
+				FCA5573E2A6D8C3200FB86AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Therickandmotifyapp;
+			productName = Therickandmotifyapp;
+			productReference = FCA557402A6D8C3200FB86AB /* Therickandmotifyapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA557552A6D8C3300FB86AB /* TherickandmotifyappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA5576D2A6D8C3300FB86AB /* Build configuration list for PBXNativeTarget "TherickandmotifyappTests" */;
+			buildPhases = (
+				FCA557522A6D8C3300FB86AB /* Sources */,
+				FCA557532A6D8C3300FB86AB /* Frameworks */,
+				FCA557542A6D8C3300FB86AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA557582A6D8C3300FB86AB /* PBXTargetDependency */,
+			);
+			name = TherickandmotifyappTests;
+			productName = TherickandmotifyappTests;
+			productReference = FCA557562A6D8C3300FB86AB /* TherickandmotifyappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCA5575F2A6D8C3300FB86AB /* TherickandmotifyappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA557702A6D8C3300FB86AB /* Build configuration list for PBXNativeTarget "TherickandmotifyappUITests" */;
+			buildPhases = (
+				FCA5575C2A6D8C3300FB86AB /* Sources */,
+				FCA5575D2A6D8C3300FB86AB /* Frameworks */,
+				FCA5575E2A6D8C3300FB86AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA557622A6D8C3300FB86AB /* PBXTargetDependency */,
+			);
+			name = TherickandmotifyappUITests;
+			productName = TherickandmotifyappUITests;
+			productReference = FCA557602A6D8C3300FB86AB /* TherickandmotifyappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA557382A6D8C3200FB86AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FCA5573F2A6D8C3200FB86AB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FCA557552A6D8C3300FB86AB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FCA5573F2A6D8C3200FB86AB;
+					};
+					FCA5575F2A6D8C3300FB86AB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FCA5573F2A6D8C3200FB86AB;
+					};
+				};
+			};
+			buildConfigurationList = FCA5573B2A6D8C3200FB86AB /* Build configuration list for PBXProject "Therickandmotifyapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA557372A6D8C3200FB86AB;
+			productRefGroup = FCA557412A6D8C3200FB86AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA5573F2A6D8C3200FB86AB /* Therickandmotifyapp */,
+				FCA557552A6D8C3300FB86AB /* TherickandmotifyappTests */,
+				FCA5575F2A6D8C3300FB86AB /* TherickandmotifyappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA5573E2A6D8C3200FB86AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA557502A6D8C3300FB86AB /* LaunchScreen.storyboard in Resources */,
+				FCA5574D2A6D8C3300FB86AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA557542A6D8C3300FB86AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA5575E2A6D8C3300FB86AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA5573C2A6D8C3200FB86AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA557902A6E73AE00FB86AB /* RMOrigin.swift in Sources */,
+				FCA557962A6EA63900FB86AB /* RMEndpoint.swift in Sources */,
+				FCA557882A6D948A00FB86AB /* RM_SettingsViewController.swift in Sources */,
+				FCA557942A6EA62B00FB86AB /* RMRequest.swift in Sources */,
+				FCA557842A6D944F00FB86AB /* RM_LocationViewController.swift in Sources */,
+				FCA5577F2A6D933500FB86AB /* RM_Episode.swift in Sources */,
+				FCA557862A6D946500FB86AB /* RM_EpisodeViewController.swift in Sources */,
+				FCA557922A6EA61600FB86AB /* RMService.swift in Sources */,
+				FCA5577D2A6D930700FB86AB /* RM_Chacrater.swift in Sources */,
+				FCA557822A6D943E00FB86AB /* RM_ChacraterViewController.swift in Sources */,
+				FCA557482A6D8C3200FB86AB /* RM_ViewController.swift in Sources */,
+				FCA5578E2A6E738E00FB86AB /* RMChacraterStatus.swift in Sources */,
+				FCA557442A6D8C3200FB86AB /* AppDelegate.swift in Sources */,
+				FCA5578A2A6E735D00FB86AB /* RMSignleLocation.swift in Sources */,
+				FCA557462A6D8C3200FB86AB /* SceneDelegate.swift in Sources */,
+				FCA5577B2A6D92E000FB86AB /* RM_Location.swift in Sources */,
+				FCA5578C2A6E737500FB86AB /* RMChacraterGender.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA557522A6D8C3300FB86AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA5575B2A6D8C3300FB86AB /* TherickandmotifyappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA5575C2A6D8C3300FB86AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA557652A6D8C3300FB86AB /* TherickandmotifyappUITests.swift in Sources */,
+				FCA557672A6D8C3300FB86AB /* TherickandmotifyappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA557582A6D8C3300FB86AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA5573F2A6D8C3200FB86AB /* Therickandmotifyapp */;
+			targetProxy = FCA557572A6D8C3300FB86AB /* PBXContainerItemProxy */;
+		};
+		FCA557622A6D8C3300FB86AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA5573F2A6D8C3200FB86AB /* Therickandmotifyapp */;
+			targetProxy = FCA557612A6D8C3300FB86AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCA5574E2A6D8C3300FB86AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA5574F2A6D8C3300FB86AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA557682A6D8C3300FB86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA557692A6D8C3300FB86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA5576B2A6D8C3300FB86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Therickandmotifyapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherApp.Therickandmotifyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA5576C2A6D8C3300FB86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Therickandmotifyapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherApp.Therickandmotifyapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCA5576E2A6D8C3300FB86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherApp.TherickandmotifyappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Therickandmotifyapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Therickandmotifyapp";
+			};
+			name = Debug;
+		};
+		FCA5576F2A6D8C3300FB86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherApp.TherickandmotifyappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Therickandmotifyapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Therickandmotifyapp";
+			};
+			name = Release;
+		};
+		FCA557712A6D8C3300FB86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherApp.TherickandmotifyappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Therickandmotifyapp;
+			};
+			name = Debug;
+		};
+		FCA557722A6D8C3300FB86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherApp.TherickandmotifyappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Therickandmotifyapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA5573B2A6D8C3200FB86AB /* Build configuration list for PBXProject "Therickandmotifyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA557682A6D8C3300FB86AB /* Debug */,
+				FCA557692A6D8C3300FB86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA5576A2A6D8C3300FB86AB /* Build configuration list for PBXNativeTarget "Therickandmotifyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA5576B2A6D8C3300FB86AB /* Debug */,
+				FCA5576C2A6D8C3300FB86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA5576D2A6D8C3300FB86AB /* Build configuration list for PBXNativeTarget "TherickandmotifyappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA5576E2A6D8C3300FB86AB /* Debug */,
+				FCA5576F2A6D8C3300FB86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA557702A6D8C3300FB86AB /* Build configuration list for PBXNativeTarget "TherickandmotifyappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA557712A6D8C3300FB86AB /* Debug */,
+				FCA557722A6D8C3300FB86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA557382A6D8C3200FB86AB /* Project object */;
+}
